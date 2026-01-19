@@ -75,9 +75,13 @@ type AdgroupsAddRequest struct {
 	EnableSteadyExploration           *bool                          `json:"enable_steady_exploration,omitempty"`
 	SmartTargetingMode                SmartTargetingMode             `json:"smart_targeting_mode,omitempty"`
 
-	// @20260119 给腾讯广告MAPI开发者官方平台提工单，人家回复说：智投的这些字段目前暂时是没有的，这个之前有类似反馈，短期还添加不了！
-	// 所以只能自己添加了，等后续腾讯广告官方添加了，再切回使用官方的github仓库即可。
-	// 在亿量项目的go.mod中添加：replace github.com/tencentad/marketing-api-go-sdk => github.com/SparkLee/tencentad_marketing_api_go_sdk latest
+	// @20260119 给腾讯广告MAPI开发者官方平台提工单，人家回复说：智投的这些字段目前暂时是没有的，这个之前有类似反馈，短期还添加不了！ 所以只能自己添加了，等后续腾讯广告官方添加了，再切回使用官方的github仓库即可。
+	// ====== 使用方法
+	// 1、在亿量项目的go.mod中添加：replace github.com/tencentad/marketing-api-go-sdk => github.com/SparkLee/tencentad_marketing_api_go_sdk v1.0.202601191720
+	// 2、执行命令：go get github.com/tencentad/marketing-api-go-sdk
+	// ====== 切回官方仓库
+	// 1、从亿量项目的go.mod中删除上述的 replace 指令行
+	// 2、执行命令：go get github.com/tencentad/marketing-api-go-sdk
 	SmartDeliveryPlatform  DeliveryScene           `json:"smart_delivery_platform,omitempty"`
 	SmartDeliverySceneSpec *SmartDeliverySceneSpec `json:"smart_delivery_scene_spec,omitempty"`
 }
