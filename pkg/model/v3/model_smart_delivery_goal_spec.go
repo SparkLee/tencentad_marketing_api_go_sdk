@@ -58,4 +58,5 @@ type SmartDeliveryGoalSpec struct {
 	QytNetProfitRoiSpec                                            *SmartDeliveryGoalQytSpec                                 `json:"qyt_net_profit_roi_spec,omitempty"`
 	WechatStoreNetProfitRoiSpec                                    *SmartDeliveryGoalWechatStoreNetProfitRoiSpec             `json:"wechat_store_net_profit_roi_spec,omitempty"`
 	WechatStoreNetProfitSpec                                       *SmartDeliveryGoalWechatStoreNetProfitSpec                `json:"wechat_store_net_profit_spec,omitempty"`
+	QytCollectSpec                                                 *SmartDeliveryGoalQytSpec                                 `json:"qyt_collect_spec,omitempty"`
 }

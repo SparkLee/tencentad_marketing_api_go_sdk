@@ -10,6 +10,10 @@
 package model
 
 type AdgroupsAddRequest struct {
+	// Fork compatibility: official v1.7.87 still omits these AIM creation fields.
+	// See FORK.md before removing them or switching to the upstream module.
+	SmartDeliveryPlatform             DeliveryScene                  `json:"smart_delivery_platform,omitempty"`
+	SmartDeliverySceneSpec            *SmartDeliverySceneSpec        `json:"smart_delivery_scene_spec,omitempty"`
 	AccountId                         *int64                         `json:"account_id,omitempty"`
 	AdgroupName                       *string                        `json:"adgroup_name,omitempty"`
 	MarketingGoal                     MarketingGoal                  `json:"marketing_goal,omitempty"`
@@ -71,17 +75,10 @@ type AdgroupsAddRequest struct {
 	LiveRecommendStrategyEnabled      *bool                          `json:"live_recommend_strategy_enabled,omitempty"`
 	CustomCostRoiCap                  *float64                       `json:"custom_cost_roi_cap,omitempty"`
 	SearchExpansionSwitch             SearchExpansionSwitch          `json:"search_expansion_switch,omitempty"`
+	IndustryValueExplore              *IndustryValueExplore          `json:"industry_value_explore,omitempty"`
 	AdxRealtimeType                   AdxRealtimeType                `json:"adx_realtime_type,omitempty"`
 	EnableSteadyExploration           *bool                          `json:"enable_steady_exploration,omitempty"`
 	SmartTargetingMode                SmartTargetingMode             `json:"smart_targeting_mode,omitempty"`
-
-	// @20260119 给腾讯广告MAPI开发者官方平台提工单，人家回复说：智投的这些字段目前暂时是没有的，这个之前有类似反馈，短期还添加不了！ 所以只能自己添加了，等后续腾讯广告官方添加了，再切回使用官方的github仓库即可。
-	// ====== 使用方法
-	// 1、在亿量项目的go.mod中添加：replace github.com/tencentad/marketing-api-go-sdk => github.com/SparkLee/tencentad_marketing_api_go_sdk v1.0.202601191720
-	// 2、执行命令：go get github.com/tencentad/marketing-api-go-sdk
-	// ====== 切回官方仓库
-	// 1、从亿量项目的go.mod中删除上述的 replace 指令行
-	// 2、执行命令：go get github.com/tencentad/marketing-api-go-sdk
-	SmartDeliveryPlatform  DeliveryScene           `json:"smart_delivery_platform,omitempty"`
-	SmartDeliverySceneSpec *SmartDeliverySceneSpec `json:"smart_delivery_scene_spec,omitempty"`
+	SmartCouponMode                   SmartCouponMode                `json:"smart_coupon_mode,omitempty"`
+	IsSmartDeliveryUpgradeProject     *bool                          `json:"is_smart_delivery_upgrade_project,omitempty"`
 }

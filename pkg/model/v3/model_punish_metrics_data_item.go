@@ -9,7 +9,7 @@
 
 package model
 
-// 处罚指标数据项
+// 计量治理指标数据项
 type PunishMetricsDataItem struct {
 	PartitionTime           *int64  `json:"partition_time,omitempty"`
 	OpsAdvertiserName       *string `json:"ops_advertiser_name,omitempty"`
@@ -20,4 +20,9 @@ type PunishMetricsDataItem struct {
 	PenaltyReviewTotal      *int64  `json:"penalty_review_total,omitempty"`
 	PenaltyReviewRejectCnt  *int64  `json:"penalty_review_reject_cnt,omitempty"`
 	PenaltyRejectRate       *string `json:"penalty_reject_rate,omitempty"`
+	PenaltyUnitPrice        *string `json:"penalty_unit_price,omitempty"`
+	PenaltyAmount           *string `json:"penalty_amount,omitempty"`
+	PenaltyUidCnt           *int64  `json:"penalty_uid_cnt,omitempty"`
+	CappedRejectCnt         *int64  `json:"capped_reject_cnt,omitempty"`
+	FinalPenaltyAmount      *string `json:"final_penalty_amount,omitempty"`
 }

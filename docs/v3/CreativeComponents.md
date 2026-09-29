@@ -9,7 +9,6 @@ Name | Type | Description | Notes
 **ImageList** | [**[]ImageListComponent**](image_list_component.md) |  | [optional] [default to null]
 **Video** | [**[]VideoComponent**](video_component.md) |  | [optional] [default to null]
 **Brand** | [**[]BrandComponent**](brand_component.md) |  | [optional] [default to null]
-**ChannelsBrand** | [**[]BrandComponent**](brand_component.md) | 视频号品牌形象，JSON 字段为 `channels_brand`，可与 `brand` 同时提交。参见[官方创建创意文档](https://developers.e.qq.com/v3.0/docs/api/dynamic_creatives/add) | [optional] [default to null]
 **Consult** | [**[]ConsultComponent**](consult_component.md) |  | [optional] [default to null]
 **Phone** | [**[]PhoneComponent**](phone_component.md) |  | [optional] [default to null]
 **Form** | [**[]FormComponent**](form_component.md) |  | [optional] [default to null]
@@ -38,8 +37,14 @@ Name | Type | Description | Notes
 **MiniCardLink** | [**[]MiniCardLinkComponent**](mini_card_link_component.md) |  | [optional] [default to null]
 **FloatingZoneList** | [**[]FloatingZoneListComponent**](floating_zone_list_component.md) |  | [optional] [default to null]
 **VideoChannelsContent** | [**[]VideoChannelsContentComponent**](video_channels_content_component.md) |  | [optional] [default to null]
+**WechatShopActivity** | [**[]WechatShopActivityComponent**](wechat_shop_activity_component.md) |  | [optional] [default to null]
 **Audio** | [**[]AudioComponent**](audio_component.md) |  | [optional] [default to null]
 **WxgameDirectPage** | [**[]WxgameDirectPageComponent**](wxgame_direct_page_component.md) |  | [optional] [default to null]
+**VideoList** | [**[]VideoListComponent**](video_list_component.md) |  | [optional] [default to null]
+**DoctorCard** | [**[]DoctorCardComponent**](doctor_card_component.md) |  | [optional] [default to null]
+**ChannelsLiveFeed** | [**[]ChannelsLiveFeedComponent**](channels_live_feed_component.md) |  | [optional] [default to null]
+**RewardedBrowse** | [**[]RewardedBrowseComponent**](rewarded_browse_component.md) |  | [optional] [default to null]
+**ChannelsBrand** | [**[]BrandComponent**](brand_component.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

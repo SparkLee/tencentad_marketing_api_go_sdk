@@ -23,4 +23,5 @@ type SmartDeliveryGoalQytSpec struct {
 	FirstTwentyFourHourEcommerceOrderCost *int64              `json:"first_twenty_four_hour_ecommerce_order_cost,omitempty"`
 	NetProfitCost                         *int64              `json:"net_profit_cost,omitempty"`
 	NetProfitRoi                          *float64            `json:"net_profit_roi,omitempty"`
+	CollectCost                           *int64              `json:"collect_cost,omitempty"`
 }

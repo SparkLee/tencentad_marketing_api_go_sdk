@@ -35,7 +35,7 @@ func (e *MaterialLabelsDeleteExample) Init() {
 	e.Data = model.MaterialLabelsDeleteRequest{}
 }
 
-func (e *MaterialLabelsDeleteExample) RunExample() (interface{}, http.Header, error) {
+func (e *MaterialLabelsDeleteExample) RunExample() (model.MaterialLabelsDeleteResponseData, http.Header, error) {
 	tads := e.TAds
 	// change ctx as needed
 	ctx := *tads.Ctx

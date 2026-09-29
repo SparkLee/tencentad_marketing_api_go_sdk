@@ -648,6 +648,7 @@ type ReportStruct struct {
 	AdMonetizationActive7dPv                   *int64   `json:"ad_monetization_active_7d_pv,omitempty"`
 	AdMonetizationDedupActive7dPv              *int64   `json:"ad_monetization_dedup_active_7d_pv,omitempty"`
 	ClkRedpocketBtnSubscribePv                 *int64   `json:"clk_redpocket_btn_subscribe_pv,omitempty"`
+	ClkBlessingCardPv                          *int64   `json:"clk_blessing_card_pv,omitempty"`
 	ClkShortcutMenusPv                         *int64   `json:"clk_shortcut_menus_pv,omitempty"`
 	ChannelsDetailBtnPv                        *int64   `json:"channels_detail_btn_pv,omitempty"`
 	ZoneHeaderLiveClickCnt                     *int64   `json:"zone_header_live_click_cnt,omitempty"`
@@ -877,6 +878,35 @@ type ReportStruct struct {
 	ClkBmDetailPv                              *int64   `json:"clk_bm_detail_pv,omitempty"`
 	ClkRpsPv                                   *int64   `json:"clk_rps_pv,omitempty"`
 	SliderPv                                   *int64   `json:"slider_pv,omitempty"`
+	InsuranceDedupPv                           *int64   `json:"insurance_dedup_pv,omitempty"`
+	ClkBmLivePv                                *int64   `json:"clk_bm_live_pv,omitempty"`
+	AdMonetizationIpu                          *int64   `json:"ad_monetization_ipu,omitempty"`
+	AdMonetizationLtv                          *int64   `json:"ad_monetization_ltv,omitempty"`
+	EffectiveSeedingCount                      *int64   `json:"effective_seeding_count,omitempty"`
+	EffectiveSeedingCost                       *int64   `json:"effective_seeding_cost,omitempty"`
+	EffectiveSeedingRate                       *float64 `json:"effective_seeding_rate,omitempty"`
+	EffectiveSeedingConvertionsRate            *float64 `json:"effective_seeding_convertions_rate,omitempty"`
+	AdMonetizationPlaRegAmount                 *int64   `json:"ad_monetization_pla_reg_amount,omitempty"`
+	RealCostValueExplore                       *int64   `json:"real_cost_value_explore,omitempty"`
+	ClkActionContentPv                         *int64   `json:"clk_action_content_pv,omitempty"`
+	ClkActionContentUv                         *int64   `json:"clk_action_content_uv,omitempty"`
+	Retention14dDedupPv                        *int64   `json:"retention_14d_dedup_pv,omitempty"`
+	Retention30dDedupPv                        *int64   `json:"retention_30d_dedup_pv,omitempty"`
+	RetentionRateD14                           *float64 `json:"retention_rate_d14,omitempty"`
+	RetentionRateD30                           *float64 `json:"retention_rate_d30,omitempty"`
+	AppRetentionD14Cost                        *int64   `json:"app_retention_d14_cost,omitempty"`
+	AppRetentionD30Cost                        *int64   `json:"app_retention_d30_cost,omitempty"`
+	ClkFifaIpPv                                *int64   `json:"clk_fifa_ip_pv,omitempty"`
+	LandingFifaIpGenPv                         *int64   `json:"landing_fifa_ip_gen_pv,omitempty"`
+	LandingFifaIpGenUv                         *int64   `json:"landing_fifa_ip_gen_uv,omitempty"`
+	AfterAddWecomDeletePv                      *int64   `json:"after_add_wecom_delete_pv,omitempty"`
+	AfterAddWecomDeleteRate                    *float64 `json:"after_add_wecom_delete_rate,omitempty"`
+	AfterAddWecomConsultDedupRate              *float64 `json:"after_add_wecom_consult_dedup_rate,omitempty"`
+	AfterAddWecomClassParticipatedFisrtUvRate  *float64 `json:"after_add_wecom_class_participated_fisrt_uv_rate,omitempty"`
+	OrderCouponAmount                          *int64   `json:"order_coupon_amount,omitempty"`
+	EffectiveConsultDedupPv                    *int64   `json:"effective_consult_dedup_pv,omitempty"`
+	EffectiveConsultDedupCost                  *int64   `json:"effective_consult_dedup_cost,omitempty"`
+	EffectiveConsultDedupRate                  *float64 `json:"effective_consult_dedup_rate,omitempty"`
 	AdgroupId                                  *int64   `json:"adgroup_id,omitempty"`
 	AdgroupName                                *string  `json:"adgroup_name,omitempty"`
 	DynamicCreativeId                          *int64   `json:"dynamic_creative_id,omitempty"`

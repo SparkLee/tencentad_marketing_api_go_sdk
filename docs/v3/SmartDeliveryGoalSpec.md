@@ -50,6 +50,7 @@ Name | Type | Description | Notes
 **QytNetProfitRoiSpec** | [***SmartDeliveryGoalQytSpec**](smart_delivery_goal_qyt_spec.md) |  | [optional] [default to null]
 **WechatStoreNetProfitRoiSpec** | [***SmartDeliveryGoalWechatStoreNetProfitRoiSpec**](smart_delivery_goal_wechat_store_net_profit_roi_spec.md) |  | [optional] [default to null]
 **WechatStoreNetProfitSpec** | [***SmartDeliveryGoalWechatStoreNetProfitSpec**](smart_delivery_goal_wechat_store_net_profit_spec.md) |  | [optional] [default to null]
+**QytCollectSpec** | [***SmartDeliveryGoalQytSpec**](smart_delivery_goal_qyt_spec.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

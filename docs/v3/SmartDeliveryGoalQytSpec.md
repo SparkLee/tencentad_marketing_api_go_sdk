@@ -15,6 +15,7 @@ Name | Type | Description | Notes
 **FirstTwentyFourHourEcommerceOrderCost** | **int64** |  | [optional] [default to null]
 **NetProfitCost** | **int64** |  | [optional] [default to null]
 **NetProfitRoi** | **float64** |  | [optional] [default to null]
+**CollectCost** | **int64** |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

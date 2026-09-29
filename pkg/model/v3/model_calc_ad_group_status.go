@@ -9,7 +9,7 @@
 
 package model
 
-// CalcAdGroupStatus : 广告在系统中的状态
+// CalcAdGroupStatus : 营销单元在系统中的状态
 type CalcAdGroupStatus string
 
 // List of CalcAdGroupStatus
@@ -38,6 +38,9 @@ const (
 	CalcAdGroupStatus_ADGROUP_STATUS_WECHAT_STORE_CLOSED                              CalcAdGroupStatus = "ADGROUP_STATUS_WECHAT_STORE_CLOSED"
 	CalcAdGroupStatus_ADGROUP_STATUS_NOT_ACTIVE_PRODUCT_REMOVED                       CalcAdGroupStatus = "ADGROUP_STATUS_NOT_ACTIVE_PRODUCT_REMOVED"
 	CalcAdGroupStatus_ADGROUP_STATUS_WECHAT_STORE_NOT_AVAILABLE                       CalcAdGroupStatus = "ADGROUP_STATUS_WECHAT_STORE_NOT_AVAILABLE"
+	CalcAdGroupStatus_ADGROUP_STATUS_NOT_AVAILABLE_PRODUCT_DELETE                     CalcAdGroupStatus = "ADGROUP_STATUS_NOT_AVAILABLE_PRODUCT_DELETE"
+	CalcAdGroupStatus_ADGROUP_STATUS_NOT_AVAILABLE_PRODUCT_SET_DELETE                 CalcAdGroupStatus = "ADGROUP_STATUS_NOT_AVAILABLE_PRODUCT_SET_DELETE"
+	CalcAdGroupStatus_ADGROUP_STATUS_NOT_AVAILABLE_WECHAT_STORE_PRODUCT_SET_DELETE    CalcAdGroupStatus = "ADGROUP_STATUS_NOT_AVAILABLE_WECHAT_STORE_PRODUCT_SET_DELETE"
 	CalcAdGroupStatus_SMART_ADGROUP_STATUS_DELETED                                    CalcAdGroupStatus = "SMART_ADGROUP_STATUS_DELETED"
 	CalcAdGroupStatus_SMART_ADGROUP_STATUS_SUSPEND                                    CalcAdGroupStatus = "SMART_ADGROUP_STATUS_SUSPEND"
 	CalcAdGroupStatus_SMART_ADGROUP_STATUS_JOINT_BUDGET_REACHED                       CalcAdGroupStatus = "SMART_ADGROUP_STATUS_JOINT_BUDGET_REACHED"

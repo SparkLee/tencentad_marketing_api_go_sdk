@@ -6,16 +6,16 @@ import (
 	"testing"
 )
 
-// This checks local serialization, not remote acceptance of the DAY30 extension.
+// Uses the official goal enum; only checks local serialization of the fork's ROI field.
 func TestSmartDeliveryDay30RoundTrip(t *testing.T) {
-	const input = `{"smart_delivery_platform":"SMART_DELIVERY_PLATFORM_EDITION_MINI_GAME_PROMOTION","smart_delivery_scene_spec":{"smart_delivery_goal":"SMART_DELIVERY_GOAL_DAY30_MONETIZATION","conversion_id_list":[10018],"smart_delivery_goal_spec":{"mini_game_promotion_spec":{"register_cost":123,"day30_monetization_roi":1.234}}}}`
+	const input = `{"smart_delivery_platform":"SMART_DELIVERY_PLATFORM_EDITION_MINI_GAME_PROMOTION","smart_delivery_scene_spec":{"smart_delivery_goal":"SMART_DELIVERY_GOAL_APP_REGISTER_30DAY_MONETIZATION_ROAS","conversion_id_list":[10018],"smart_delivery_goal_spec":{"mini_game_promotion_spec":{"register_cost":123,"day30_monetization_roi":1.234}}}}`
 	var request AdgroupsAddRequest
 	decoder := json.NewDecoder(strings.NewReader(input))
 	decoder.DisallowUnknownFields()
 	if err := decoder.Decode(&request); err != nil {
 		t.Fatal(err)
 	}
-	if request.SmartDeliverySceneSpec.SmartDeliveryGoal != SmartDeliveryGoal_DAY30_MONETIZATION {
+	if request.SmartDeliverySceneSpec.SmartDeliveryGoal != SmartDeliveryGoal_APP_REGISTER_30_DAY_MONETIZATION_ROAS {
 		t.Fatal("incorrect goal")
 	}
 	encoded, err := json.Marshal(request)

@@ -123,5 +123,8 @@ const (
 	IntOptimizationGoal_CLUE_PAY_SUCCEED                       IntOptimizationGoal = "OPTIMIZATIONGOAL_CLUE_PAY_SUCCEED"
 	IntOptimizationGoal_30DAYUNSUBSCRIBERATE                   IntOptimizationGoal = "OPTIMIZATIONGOAL_30DAY_UNSUBSCRIBE_RATE"
 	IntOptimizationGoal_EFFECTIVE_INSURE                       IntOptimizationGoal = "OPTIMIZATIONGOAL_EFFECTIVE_INSURE"
+	IntOptimizationGoal_COLLECT                                IntOptimizationGoal = "OPTIMIZATIONGOAL_COLLECT"
+	IntOptimizationGoal_COUPON_AMOUNT                          IntOptimizationGoal = "OPTIMIZATIONGOAL_COUPON_AMOUNT"
+	IntOptimizationGoal_EFFECTIVE_CONSULT                      IntOptimizationGoal = "OPTIMIZATIONGOAL_EFFECTIVE_CONSULT"
 	IntOptimizationGoal_PAGE_EFFECTIVE_PHONE_CALL              IntOptimizationGoal = "OPTIMIZATIONGOAL_PAGE_EFFECTIVE_PHONE_CALL"
 )

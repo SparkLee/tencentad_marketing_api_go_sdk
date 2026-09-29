@@ -11,6 +11,7 @@ Name | Type | Description | Notes
 **WxgamePlayablePageTriggerText** | **string** |  | [optional] [default to null]
 **WxgamePlayablePageCardLinkImage** | **string** |  | [optional] [default to null]
 **WxgamePlayablePageCardLinkDescription** | **string** |  | [optional] [default to null]
+**WxgamePlayablePageEndTimeType** | [***WxgamePlayablePageEndTimeType**](WxgamePlayablePageEndTimeType.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

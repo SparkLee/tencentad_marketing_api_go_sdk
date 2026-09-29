@@ -131,4 +131,7 @@ const (
 	OptimizationGoal_CLUE_PAY_SUCCEED                       OptimizationGoal = "OPTIMIZATIONGOAL_CLUE_PAY_SUCCEED"
 	OptimizationGoal_30DAYUNSUBSCRIBERATE                   OptimizationGoal = "OPTIMIZATIONGOAL_30DAY_UNSUBSCRIBE_RATE"
 	OptimizationGoal_EFFECTIVE_INSURE                       OptimizationGoal = "OPTIMIZATIONGOAL_EFFECTIVE_INSURE"
+	OptimizationGoal_COLLECT                                OptimizationGoal = "OPTIMIZATIONGOAL_COLLECT"
+	OptimizationGoal_COUPON_AMOUNT                          OptimizationGoal = "OPTIMIZATIONGOAL_COUPON_AMOUNT"
+	OptimizationGoal_EFFECTIVE_CONSULT                      OptimizationGoal = "OPTIMIZATIONGOAL_EFFECTIVE_CONSULT"
 )

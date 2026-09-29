@@ -19,4 +19,8 @@ const (
 	WechatChannelsAuthType_OVER_CORPORATION            WechatChannelsAuthType = "OVER_CORPORATION"
 	WechatChannelsAuthType_OVER_CORPORATION_SAME_GROUP WechatChannelsAuthType = "OVER_CORPORATION_SAME_GROUP"
 	WechatChannelsAuthType_OVER_CORPORATION_EMPLOYMENT WechatChannelsAuthType = "OVER_CORPORATION_EMPLOYMENT"
+	WechatChannelsAuthType_CUSTOMER_MANAGER            WechatChannelsAuthType = "CUSTOMER_MANAGER"
+	WechatChannelsAuthType_CUSTOMER_BUSINESS_UNIT      WechatChannelsAuthType = "CUSTOMER_BUSINESS_UNIT"
+	WechatChannelsAuthType_GROUP_BUSINESS_UNIT         WechatChannelsAuthType = "GROUP_BUSINESS_UNIT"
+	WechatChannelsAuthType_WECHAT_SHOP_LEAGUE          WechatChannelsAuthType = "WECHAT_SHOP_LEAGUE"
 )
