@@ -35,6 +35,7 @@ const (
 	SmartDeliveryGoal_SEVEN_DAY_MONETIZATION                                               SmartDeliveryGoal = "SMART_DELIVERY_GOAL_SEVEN_DAY_MONETIZATION"
 	SmartDeliveryGoal_SEVEN_DAY_PURCHASE                                                   SmartDeliveryGoal = "SMART_DELIVERY_GOAL_SEVEN_DAY_PURCHASE"
 	SmartDeliveryGoal_DAY30_PURCHASE                                                       SmartDeliveryGoal = "SMART_DELIVERY_GOAL_DAY30_PURCHASE"
+	SmartDeliveryGoal_DAY30_MONETIZATION                                                   SmartDeliveryGoal = "SMART_DELIVERY_GOAL_DAY30_MONETIZATION"
 	SmartDeliveryGoal_GAME_PROMOTION_APP_ACTIVATE                                          SmartDeliveryGoal = "SMART_DELIVERY_GOAL_GAME_PROMOTION_APP_ACTIVATE"
 	SmartDeliveryGoal_GAME_PROMOTION_APP_ACTIVATE_PURCHASE                                 SmartDeliveryGoal = "SMART_DELIVERY_GOAL_GAME_PROMOTION_APP_ACTIVATE_PURCHASE"
 	SmartDeliveryGoal_GAME_PROMOTION_APP_ACTIVATE_ROI                                      SmartDeliveryGoal = "SMART_DELIVERY_GOAL_GAME_PROMOTION_APP_ACTIVATE_ROI"

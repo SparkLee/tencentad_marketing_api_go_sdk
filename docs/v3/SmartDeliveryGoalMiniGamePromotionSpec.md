@@ -7,6 +7,7 @@ Name | Type | Description | Notes
 **FirstDayPurchaseRoi** | **float64** |  | [optional] [default to null]
 **FirstDayMonetizationRoi** | **float64** |  | [optional] [default to null]
 **SevenDayMonetizationRoi** | **float64** |  | [optional] [default to null]
+**Day30MonetizationRoi** | **float64** | 30-day monetization ROI (fork extension; remote contract pending verification) | [optional] [default to null]
 **SevenDayPurchaseRoi** | **float64** |  | [optional] [default to null]
 **Day30PurchaseRoi** | **float64** |  | [optional] [default to null]
 
