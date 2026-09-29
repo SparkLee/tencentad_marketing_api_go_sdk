@@ -9,6 +9,7 @@ Name | Type | Description | Notes
 **ImageList** | [**[]ImageListComponent**](image_list_component.md) |  | [optional] [default to null]
 **Video** | [**[]VideoComponent**](video_component.md) |  | [optional] [default to null]
 **Brand** | [**[]BrandComponent**](brand_component.md) |  | [optional] [default to null]
+**ChannelsBrand** | [**[]BrandComponent**](brand_component.md) | 视频号品牌形象，JSON 字段为 `channels_brand`，可与 `brand` 同时提交。参见[官方创建创意文档](https://developers.e.qq.com/v3.0/docs/api/dynamic_creatives/add) | [optional] [default to null]
 **Consult** | [**[]ConsultComponent**](consult_component.md) |  | [optional] [default to null]
 **Phone** | [**[]PhoneComponent**](phone_component.md) |  | [optional] [default to null]
 **Form** | [**[]FormComponent**](form_component.md) |  | [optional] [default to null]

@@ -47,4 +47,8 @@ type CreativeComponents struct {
 	VideoChannelsContent *[]VideoChannelsContentComponent `json:"video_channels_content,omitempty"`
 	Audio                *[]AudioComponent                `json:"audio,omitempty"`
 	WxgameDirectPage     *[]WxgameDirectPageComponent     `json:"wxgame_direct_page,omitempty"`
+
+	// 视频号版位的品牌形象，与普通品牌形象独立提交。
+	// https://developers.e.qq.com/v3.0/docs/api/dynamic_creatives/add
+	ChannelsBrand *[]BrandComponent `json:"channels_brand,omitempty"`
 }
