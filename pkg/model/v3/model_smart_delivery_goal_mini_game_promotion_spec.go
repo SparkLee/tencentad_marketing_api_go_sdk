@@ -15,7 +15,6 @@ type SmartDeliveryGoalMiniGamePromotionSpec struct {
 	FirstDayPurchaseRoi     *float64 `json:"first_day_purchase_roi,omitempty"`
 	FirstDayMonetizationRoi *float64 `json:"first_day_monetization_roi,omitempty"`
 	SevenDayMonetizationRoi *float64 `json:"seven_day_monetization_roi,omitempty"`
-	Day30MonetizationRoi    *float64 `json:"day30_monetization_roi,omitempty"`
 	SevenDayPurchaseRoi     *float64 `json:"seven_day_purchase_roi,omitempty"`
 	Day30PurchaseRoi        *float64 `json:"day30_purchase_roi,omitempty"`
 }
